@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fabricplaceholderapi-parser",
+  "version": "${version}",
+  "name": "Fabric PlaceholderAPI Parser",
+  "description": "Simple command-based parser for TextPlaceholderAPI integration testing",
+  "authors": [
+    "Dimaguy"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fabricplaceholderapi-parser/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "me.dimaguy.fabricplaceholderapiParser.FabricplaceholderapiParser"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "placeholder-api": "*"
+  }
+}
